@@ -32,6 +32,10 @@ a {
 }
 .header-menu-item {
 }
+.header-menu-link:hover,
+.header-menu-link:focus {
+  color: #4d5ae5;
+}
 .header-contact {
 }
 .header-contact-list {
@@ -43,10 +47,12 @@ a {
   font-size: 16px;
   color: #434455;
 }
+.header-contact-link:hover,
+.header-contact-link:focus {
+  color: #4d5ae5;
+}
 .hero {
   background: #2e2f42;
-  width: 1440px;
-  height: 600px;
 }
 .hero-title {
   font-weight: 700;
@@ -64,6 +70,10 @@ a {
   color: #fff;
   background: #4d5ae5;
 }
+.hero-order-btn:hover {
+  color: #404bbf;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -166,6 +176,4 @@ a {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   background: #2e2f42;
-  width: 1440px;
-  height: 312px;
 }
