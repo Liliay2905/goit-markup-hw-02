@@ -11,7 +11,7 @@ a {
 }
 .header {
 }
-.hader-navigation {
+.header-navigation {
 }
 .header-logo {
   font-family: "Raleway", sans-serif;
@@ -21,58 +21,58 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-
-  .logo-stu {
-    color: #2e2f42;
-  }
-  .header-menu-list {
-    font-weight: 500;
-    font-size: 16px;
-    color: #2e2f42;
-  }
-  .header-menu-item {
-  }
-  .header-menu-lfirst {
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-  }
-  .header-menu-lfirst:hover,
-  .header-menu-lfirst:focus {
-    color: #404bbf;
-  }
-  .header-menu-lfirst:hover,
-  .header-menu-lfirst:focus {
-    color: #4d5ae5;
-  }
-  .header-contact {
-    font-style: normal;
-  }
-  .header-contact-list {
-  }
-  .header-contact-item {
-  }
-  .header-contact-link {
-    font-weight: 400;
-    font-size: 16px;
-    color: #434455;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-  }
-  .header-contact-link:hover,
-  .header-contact-link:focus {
-    color: #404bbf;
-  }
-  .hero {
-    background: #2e2f42;
-  }
-  .hero-title {
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 1.07;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #fff;
+}
+.logo-stu {
+  color: #2e2f42;
+}
+.header-menu-list {
+  font-weight: 500;
+  font-size: 16px;
+  color: #2e2f42;
+}
+.header-menu-item {
+}
+.header-menu-lfirst {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.header-menu-lfirst:hover,
+.header-menu-lfirst:focus {
+  color: #404bbf;
+}
+.header-menu-lfirst:hover,
+.header-menu-lfirst:focus {
+  color: #4d5ae5;
+}
+.header-contact {
+  font-style: normal;
+}
+.header-contact-list {
+}
+.header-contact-item {
+}
+.header-contact-link {
+  font-weight: 400;
+  font-size: 16px;
+  color: #434455;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.header-contact-link:hover,
+.header-contact-link:focus {
+  color: #404bbf;
+}
+.hero {
+  background: #2e2f42;
+}
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
 }
 .hero-order-btn {
   font-family: "Roboto", sans-serif;
@@ -82,7 +82,7 @@ a {
   letter-spacing: 0.04em;
   color: #fff;
   background: #4d5ae5;
-   cursor: pointer;
+  cursor: pointer;
 }
 .hero-order-btn:hover,
 .hero-order-btn:focus {
@@ -180,7 +180,7 @@ a {
   background: #2e2f42;
 }
 .flow-logo {
-   line-height: 1.17;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -192,5 +192,5 @@ a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color:#f4f4fd;
+  color: #f4f4fd;
 }
