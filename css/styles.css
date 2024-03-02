@@ -37,13 +37,11 @@ a {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.header-menu-lfirst:hover,
-.header-menu-lfirst:focus {
+.header-menu-lfirst:hover {
   color: #404bbf;
 }
-.header-menu-lfirst:hover,
 .header-menu-lfirst:focus {
-  color: #4d5ae5;
+  color: #404bbf;
 }
 .header-contact {
   font-style: normal;
@@ -84,15 +82,13 @@ a {
   background: #4d5ae5;
   cursor: pointer;
 }
-.hero-order-btn:hover,
+.hero-order-btn:hover {
+  color: #404bbf;
+}
 .hero-order-btn:focus {
   color: #404bbf;
 }
 .visually-hidden {
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
   overflow: hidden;
 }
 .strategy-list {
