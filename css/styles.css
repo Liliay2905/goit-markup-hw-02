@@ -23,7 +23,13 @@ a {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: #4d5ae5;
+}
+.logo-stu {
+  color: #2e2f42;
 }
 .header-menu-list {
   font-weight: 500;
@@ -32,11 +38,21 @@ a {
 }
 .header-menu-item {
 }
+.header-menu-lfirst {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.header-menu-lfirst:hover,
+.header-menu-lfirst:focus {
+  color: #404bbf;
+}
 .header-menu-link:hover,
 .header-menu-link:focus {
   color: #4d5ae5;
 }
 .header-contact {
+  font-style: normal;
 }
 .header-contact-list {
 }
@@ -46,10 +62,12 @@ a {
   font-weight: 400;
   font-size: 16px;
   color: #434455;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .header-contact-link:hover,
 .header-contact-link:focus {
-  color: #4d5ae5;
+  color: #404bbf;
 }
 .hero {
   background: #2e2f42;
@@ -62,7 +80,8 @@ a {
   text-align: center;
   color: #fff;
 }
-.hero-order-btn {
+.hero-order-btn: {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -70,18 +89,13 @@ a {
   color: #fff;
   background: #4d5ae5;
 }
-.hero-order-btn:hover {
+.hero-order-btn:hover,
+.header-order-btm:focus {
   color: #404bbf;
+  cursor: pointer;
 }
-
 .visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
   padding: 0;
-
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -105,6 +119,7 @@ a {
   color: #434455;
 }
 .team {
+  background-color: #f4f4fd;
 }
 .team-title {
   font-weight: 700;
@@ -113,10 +128,12 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 .team-list {
 }
 .team-item {
+  background-color: #ffffff;
 }
 .team-image {
 }
@@ -140,10 +157,11 @@ a {
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 .portfolio-list {
 }
@@ -165,15 +183,18 @@ a {
   color: #434455;
 }
 .flow {
+  background: #2e2f42;
 }
 .flow-logo {
 }
 .flow-logo-raleway {
+}
+.flow-logo-stu {
+  color: #f4f4fd;
 }
 .flow-subtitle {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  background: #2e2f42;
 }
