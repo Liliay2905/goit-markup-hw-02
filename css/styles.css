@@ -83,10 +83,10 @@ a {
   cursor: pointer;
 }
 .hero-order-btn:hover {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 .hero-order-btn:focus {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 .visually-hidden {
   overflow: hidden;
